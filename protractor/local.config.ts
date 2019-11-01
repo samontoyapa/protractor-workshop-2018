@@ -6,9 +6,7 @@ export const config: Config = {
   specs: [ '../test/google.spec.js' ],
   seleniumAddress: 'http://localhost:4444/wd/hub',
   onPrepare: () => {
-    reporter();
     browser.ignoreSynchronization = true;
+    reporter();
   }
 };
-    browser.ignoreSynchronization = true;
-  }

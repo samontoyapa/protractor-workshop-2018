@@ -473,4 +473,7 @@ MigrationBackup/
 # Typescript
 dist
 
+# Package-lock
+package-lock.json
+
 # End of https://www.gitignore.io/api/node,windows,visualstudio
