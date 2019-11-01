@@ -10,3 +10,5 @@ export const config: Config = {
     browser.ignoreSynchronization = true;
   }
 };
+    browser.ignoreSynchronization = true;
+  }
